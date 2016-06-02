@@ -52,13 +52,12 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   background-color: rgba(222, 222, 0, 0.19);
 }
 
+
 .comment {
   color: #008000;
 }
 
-
-
-.keyword, .storage {
+.keyword, .storage, .keyword.operator.new.js {
   font-weight: bold;
   color: #0000FF;
 }
@@ -76,9 +75,9 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   color: #585CF6;
 }
 
-.variable.language, .variable.other {
-  color: rgba(49, 132, 162, 1);
-}
+// .variable.language, .variable.other {
+//   color: rgba(49, 132, 162, 1);
+// }
 
 .variable.property {
   color: #000
@@ -100,20 +99,15 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   font-weight: bold;
   color: #0C450D;
 }
-//
-// .function {
-//   font-weight: bold;
-//   color: #0000A2;
-// }
-//
+
 .entity.name.function, .support.function, .support.function.any-method {
   font-weight: bold;
   color: #0000A2;
 }
 
-.entity.name.type {
+.entity.name.type, .support.class {
   // text-decoration: underline;
-  font-weight: bold;
+  // font-weight: bold;
   color: #6D79DE;
 }
 
@@ -137,19 +131,19 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 //   color: #3C4C72;
 // }
 
-.support.class {
-  color: #333333;
-}
+// .support.class {
+//   color: #333333;
+// }
 //
 // .support.type {
 //   font-weight: bold;
 //   color: #6D79DE;
 // }
 
-.support.constant {
-  // font-weight: bold;
-  color: rgba(49, 132, 162, 1);
-}
+// .support.class {
+//   // font-weight: bold;
+//   color: rgba(49, 132, 162, 1);
+// }
 
 .support.variable {
   font-weight: bold;
