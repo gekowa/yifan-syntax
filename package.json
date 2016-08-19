@@ -1,7 +1,7 @@
 {
   "name": "yifan-syntax",
   "theme": "syntax",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A JavaScript syntax theme that I'm used to for Atom Editor",
   "keywords": [
     "syntax",
